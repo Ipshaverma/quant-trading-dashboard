@@ -23,30 +23,6 @@ A powerful, interactive dashboard for quantitative analysis and algorithmic trad
 - **[NumPy](https://numpy.org/)**: For mathematical computations.
 - **[yfinance](https://github.com/ranaroussi/yfinance)**: For fetching financial data from Yahoo Finance.
 
-## 📦 Installation & Setup
-
-1. **Clone the repository**:
-   ```bash
-   git clone <repository-url>
-   cd "Quant trading dashboard"
-   ```
-
-2. **Create a virtual environment (optional but recommended)**:
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-   ```
-
-3. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Run the Dashboard**:
-   ```bash
-   streamlit run app.py
-   ```
-
 ## 📈 Strategy Overview: Moving Average Crossover
 
 This dashboard implements a classic **MA Crossover** strategy:
@@ -57,6 +33,4 @@ The strategy backtester calculates returns based on these signals and compares t
 
 ![Strategy Returns](Strategy_returns.png)
 
-## 📄 License
 
-[MIT License](LICENSE)
